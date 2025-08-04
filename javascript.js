@@ -35,4 +35,19 @@ console.log (max);
 console.log (actual);
 console.log (percentage);
 
+// JS Functions
+let ourString = "this IS a TesT";
 
+function capitalize(ourString) {
+    return String(ourString).charAt(0).toUpperCase() + String(ourString).slice(1).toLowerCase();
+}
+
+console.log (capitalize(ourString));
+
+let myLetters = "abcde";
+
+function lastLetter(myLetters) {
+    return String(myLetters).at(-1);
+}
+
+console.log(lastLetter(myLetters));
